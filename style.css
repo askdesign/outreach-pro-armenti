@@ -150,7 +150,7 @@ Defaults
 body {
 	background-color: #222;
 	color: #333;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.625;
@@ -2066,7 +2066,7 @@ html {	font-size: 10px; /* 10px (62.5% of 16px) browser default instead of 16px 
 /* --- Body  ------------------------------------------------------------- */
 
 body, p, select, textarea {
-font-family: Georgia, serif;
+font-family: 'Lato',Arial,Helvetica,sans-serif;
 font-size: 15px; font-size: 1.5rem; 
 }
 
@@ -2115,12 +2115,17 @@ color: #333333; /*--- changed from red to black - ASK Design ---*/
     margin-bottom: 10px;
 }
 
+.sidebar #recent-posts-3 .widget-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 a, .sidebar li a, .content .entry-title a {
     color: #641dc5;
 }
 
 .site-title {
-    font-size: 34px; font-size: 3.4rem;
+    font-size: 38px; font-size: 3.8rem;
     text-transform: none;
     color: 000;
 }
